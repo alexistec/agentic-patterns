@@ -1,9 +1,10 @@
 import './helpers/string-colors.js';
-import { planningMain } from './patterns/planning/planning.js';
-import { reflectionMain } from './patterns/reflection/reflection.js';
+import { reActCrashChainMain } from './patterns/reAct/reAct-loop.js';
+import { reActCrashPlatformMain } from './patterns/reAct/reAct-homework.js';
 // import { getMessageFromModel, getMessageFromModelFailSafe } from './actions/get-message-model.js';
 //import { toolUseMain } from './patterns/tool-use/tool-use.js';
 
 console.clear();
 
-await reflectionMain();
+await reActCrashChainMain();
+// await reActCrashPlatformMain();
